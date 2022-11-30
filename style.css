@@ -1,0 +1,91 @@
+h1{
+    color: blue;
+    size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+body {
+    background-color: #CCBBEE;
+  }
+  
+  table {
+    background: white;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  th {
+    background-color: rgba(5, 5, 100, 95);
+    height: 35px;
+    border-bottom: 1px solid rgb(210, 220, 250);
+    color: rgb(120, 120, 120);
+  }
+  
+  td {
+    color: rgba(100, 100, 100, 60);
+    height: 30px;
+    border: 0.5px solid rgba(240, 240, 240, 10);
+    padding: 20px;
+  }
+  
+  tfoot {
+    font-weight: bold;
+  }
+  
+  /*Pseudo-clases*/
+  th:hover {
+    background-color: rgba(20, 20, 20, 90);
+  }
+  
+  tr:hover {
+    background-color: rgba(15, 25, 25, 90);
+  }
+  
+  /* Estililos de clases*/
+  .PrecioTotal:hover,
+  .CantidadTotal:hover {
+    color: rgb(230, 50, 50);
+  }
+  
+  .Cabecera {
+    background-color: rgba(5, 5, 100, 0.99);
+    border-radius: 4px;
+    height: 30px;
+    padding: 2em;
+    margin: 0 25%;
+    text-align: center;
+    color: white;
+  }
+  
+  a{
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+  }
+  
+  footer {
+    margin-top: 40px;
+    text-align: center;
+  }
+   
+  .img-custom {
+    position: relative;
+    float: left;
+    width:  100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size: contain;
+  }
+img{
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 50%;
+}
+
